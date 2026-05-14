@@ -306,7 +306,7 @@ pub(crate) fn gf256_inv(x: u8) -> u8 {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::chiplets::aes::AesRound128Air;
+    use crate::aes128::AesRound128Air;
     use hekate_core::trace::Trace;
     use hekate_math::{Bit, Block128};
 
