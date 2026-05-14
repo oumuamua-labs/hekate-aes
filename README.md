@@ -16,6 +16,10 @@ Per-block proving cost (Apple M3 Max, 31,250 blocks per run):
   AES-256: ~73 µs/block, 1,005 MB peak, 3,706 KiB proof
 ```
 
+## Examples
+
+- [AES-128 / AES-256 proving and verification](https://github.com/oumuamua-labs/hekate/blob/main/hekate/examples/aes.rs)
+
 ## Security & Audits
 
 > [!WARNING]
